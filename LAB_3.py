@@ -3,7 +3,7 @@ company_name = ""
 employee_code = 0
 employee_name = ""
 department = ""
-cut_off = 0
+cut_off = ""
 pay_period = 0
 basic_pay = 0
 overtime = 0
@@ -23,7 +23,7 @@ company_name = str(input("Company name:"))
 employee_code = float (input("Employee code:"))
 employee_name = str(input("Employee name:"))
 department = str(input("Department:"))
-cut_off = float (input("Cut off:"))
+cut_off = str(input("Cut off:"))
 rate_per_hour = float(input("Rate per hour:"))
 hours_per_day = float(input("Hours per day:"))
 hours_overtime_per_day = float(input("Hours overtime per day:"))
@@ -138,8 +138,7 @@ print("Company name:", company_name)
 print("Employee code:", employee_code)
 print("Employee name:", employee_name)
 print("Department:", department)
-print("Cut off pay", cut_off)
-print("Pay period:", pay_period)
+print("Cut off pay:", cut_off)
 print("Basic pay:", basic_pay)
 print("Overtime pay:", overtime)
 print("Absences:", absences)
@@ -152,4 +151,3 @@ print("Philhealth contribution:", philhealth_contribution)
 print("Deduction:", deduction)
 print("Gross earnings:", gross_earnings)
 print("Net pay:", net_pay)
-
