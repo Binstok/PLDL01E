@@ -87,12 +87,13 @@ class student_data:
         print("")
         print("")
         print("")
+        print("==================================================================================")
         print("Prelims: ", self.balance)
         print("Midterms: ", self.balance)
         print("Finals: ", self.balance)
         print("==================================================================================")
-
-
+        print("Date", self.date)
+        print("==================================================================================")
 
 emp1 = student_data()
 emp1.computation_tuition_fee_lecture()
