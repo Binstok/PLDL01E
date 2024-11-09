@@ -22,7 +22,7 @@ absences_deduction = obj2.get_absences_deduction(rate_pay, number_absences)
 #dispaly of output
 print("----------------------------------------------------------------------------------")
 print("----------------------------------------------------------------------------------")
-obj.display_data()
+obj.display_data(.)
 print("Basic Pay: %.2f" % basic_pay)
 print("Honorarium Pay: %.2f" % honorarium_pay)
 print("Employee absences deduction: %.2f" % absences_deduction)
