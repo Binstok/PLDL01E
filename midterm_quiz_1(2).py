@@ -32,11 +32,6 @@ applied_credits = float(input("Applied credits: "))
 other_charges = float(input("Other charges: "))
 installment_due = float(input("Installment due: "))
 
-if previous_bill == 0:
-    previous_bill_output = print("Thank you")
-else:
-    previous_bill_output = print("Pleas pay")
-
 print("Name: ", name)
 print("Address: ", address)
 print("")
@@ -46,7 +41,10 @@ print("Summary for Customer Account Number (CAN): ", account_number)
 print("=================================================================================================")
 print("Balance From Previous Billing")
 print(previous_bill)
-print(previous_bill_output)
+if previous_bill == 0:
+    previous_bill_output = print("Thank you")
+else:
+    previous_bill_output = print("Please pay")
 print("=================================================================================================")
 print("Current Charges: ")
 print("Amount due: ", total_amount)
