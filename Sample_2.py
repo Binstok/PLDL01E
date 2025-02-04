@@ -10,10 +10,7 @@ second_number = int(input("Enter the value of the second number:"))
 sum = first_number + second_number
 product = first_number * second_number
 
-if first_number > second_number:
-    print("1")
-
 #display the computed sum and product
 print ("The sum of two number is:", sum)
 print ("The product of two number is:", product)
-print (second_number)
+
