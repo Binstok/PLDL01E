@@ -6,7 +6,7 @@ for i in range (20):
 
 print('')
 print("Continue")
-for i in range (11):
+for i in range(11):
     if i == 5:
         continue
     print(i)
