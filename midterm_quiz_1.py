@@ -129,7 +129,7 @@ class customer_billing_statement:
         else:
             self.previous_bill_output = print("Please pay")
 #Set the computation for charges
-    def get_computation_charges(self, actual_consumption rate_per_kilowatts):
+    def get_computation_charges(self, actual_consumption, rate_per_kilowatts):
         self.charges = actual_consumption * rate_per_kilowatts
         return self.charges
 #Set the computation for the total amount
