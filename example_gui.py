@@ -118,7 +118,8 @@ combo_field1['values'] = ('Single', 'Married', 'Widow', 'Legally', 'Separated', 
 combo_field1.place(x=858, y=330)
 combo_field.current()
 
-upload_image = my_gui_design.image_design(r'C:\Users\admin\Documents\GitHub\PLDL01E\1.jpg', 222,110, 200, 180)
+upload_image = my_gui_design.image_design(r'C:\Users\Admin\PycharmProjects\PLDL01E\images\1.png', 222, 110, 200, 180)
+
 
 upload_button = my_gui_design.button_design(263, 300)
 

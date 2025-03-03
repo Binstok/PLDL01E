@@ -1,7 +1,7 @@
 import payroll_oop2
 
 obj = payroll_oop2.Employee_Info()
-company = input("Enter Company name: ")
+ = input("Enter Company name: ")
 department = input("Enter Employee Department: ")
 employee_name = input("Enter Employee Name: ")
 employee_code = input("Enter Employee Number or code: ")
