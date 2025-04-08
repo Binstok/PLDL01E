@@ -33,7 +33,7 @@ class Intern(Employee):
         self.duration = duration
 
     def display_info(self):
-        return f'[Intern] Name: {self.name}, Employee ID: {self.employee_id}, Salary: ${self.salary}, Duration: {self.duration} months'
+        return f'[This Employee is Intern] Name: {self.name}, Employee ID: {self.employee_id}, Salary: ${self.salary}, Duration: {self.duration} months'
 
 def show_employee_details(employee):
     print(employee.display_info())
